@@ -38,7 +38,8 @@ public MadLib(){
             +miltonDean+ " said it actually has only happened "
             + number2+" times. Wish us luck! If we survive, we will earn a "
             +letterGrade+ "- in P.E. class, my best grade this year!only "+wholeNumberBetween1And30+
-            " til christmas break!"
+            " til christmas break!" +
+            ""
 
 
             ;
