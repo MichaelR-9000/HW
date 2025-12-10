@@ -40,7 +40,14 @@ public class Conditionals {
             System.out.println("It is possible");
         } else if (randint == 10) {
             System.out.println("Likely no");
+        } else if (randint == 11) {
+            System.out.println("NOPE");
+        } else if (randint == 12) {
+            System.out.println("NUH UH");
+        } else if (randint == 13) {
+            System.out.println("YUH HUH");
         }
+
 
 
     }//constructor
