@@ -10,7 +10,7 @@ public class Conditionals {
     //I decided to add additional questions with additional
     // random variable
     public Conditionals(){
-        int randint2 = (int)(Math.random()*3)+1;
+        int randint2 = (int)(Math.random()*3 )+1;
         if (randint2==1) {
             System.out.println(question);
         } else if(randint2==2){
@@ -19,7 +19,7 @@ public class Conditionals {
             System.out.println(question3);
         }
 
-        int randint = (int)(Math.random() * 10)+1;
+        int randint = (int)(Math.random() * 13)+1;
         if (randint == 1) {
             System.out.println("Absolutely");
         } else if(randint == 2) {
