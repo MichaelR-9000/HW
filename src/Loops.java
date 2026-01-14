@@ -1,6 +1,9 @@
 public class Loops {
     int i;
     int x;
+    int firstnumb = 0;
+    int secondnumb = 1;
+
 
     public static void main(String[] args) {
         Loops myCount = new Loops();
@@ -11,6 +14,7 @@ public class Loops {
         countbythrees();
         countdown();
         nestedloop();
+        fibonacci();
 
 
     }
@@ -47,19 +51,29 @@ public class Loops {
 
     }
 
-    public void nestedloop(){
+    public void nestedloop() {
 
-        for (int i = 1; i < 6; i = i + 1) {
+        for (int i = 1; i < 6; i++) {
+            for (int x = 1; x <= i; x++) {
 
-            for (int x = 1; x < 6; i = x + 1) {
                 System.out.println(i);
-
-
             }
+            System.out.println( );
+
+
+        }
+    }
+    public void fibonacci(){
+        for (int i = 1; i < 20; ++i) {
+            System.out.println(firstnumb + " ");
+            int nextnumb = firstnumb + secondnumb;
+            firstnumb = secondnumb;
+            secondnumb = nextnumb;
 
 
 
         }
+
 
 
     }
