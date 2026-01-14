@@ -56,13 +56,14 @@ public class Loops {
         for (int i = 1; i < 6; i++) {
             for (int x = 1; x <= i; x++) {
 
-                System.out.println(i);
+                System.out.print(i);
             }
             System.out.println( );
-
-
         }
+        System.out.println( );
+
     }
+
     public void fibonacci(){
         for (int i = 1; i < 20; ++i) {
             System.out.println(firstnumb + " ");
